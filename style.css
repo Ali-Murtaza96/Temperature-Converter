@@ -1,0 +1,168 @@
+body{
+   background: linear-gradient(45deg, #C0C0C0, #FFFFFF, #A9A9A9);
+     margin: 0;
+    min-height: 100vh;
+    font-family:monospace;  
+    font-size: 18px;   
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+#head{
+box-shadow: 4px 4px 10px;
+}
+.converter{
+    width: 500px;
+    height: 600px;
+    margin-top: 30px;
+    background:linear-gradient(45deg, rgba(2, 132, 158), rgb(46, 77, 84));
+    font-family: monospace;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    border-style:solid;
+}
+input[type = "number"]{
+    height:50px;
+    width: 200px;
+    background: #b4c2cf;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: rgba(70, 63, 129);
+    font-family: monospace;
+    text-align: center;
+    font-size: large;
+}
+#Celsius{
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+    background: rgba(72, 195, 203);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-color: rgba(70, 63, 129);
+}
+#Celsius:hover{
+   background: linear-gradient(45deg,rgba(247, 178, 38),rgb(120, 99, 57));
+    border: transparent;
+}
+#Fahrenheit{
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+    background: rgba(72, 195, 203);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-color: rgba(70, 63, 129);
+}
+#Fahrenheit:hover{
+   background: linear-gradient(45deg,rgba(234, 38, 115),rgb(121, 66, 88));
+    border: transparent;
+}
+#Kelvin{
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+    background: rgba(72, 195, 203);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-color: rgba(70, 63, 129);
+}
+
+#Kelvin:hover{
+    background: linear-gradient(45deg,#99D930,#647548);
+    border: transparent;
+}
+
+#flask{
+    width: 70px;
+    height: 400px;
+    background: rgb(245, 233, 231);
+    position: absolute;
+    left: 80%;
+    border-style:solid;
+    border-radius:12px ;
+    box-shadow: 4px 4px 10px;
+}
+
+#mercury{
+    width: 12px;
+    height: 10%;
+    background: red;
+    position: absolute;
+    left:42%;
+    bottom:0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-style:double;
+    box-shadow:4px 4px 10px ;
+}
+
+#round{
+    width: 23px;
+    height: 25px;
+    background: red;
+    position: absolute;
+    left:35%;
+    bottom:0;
+    border-radius: 20px;
+    border-style:double;
+    border-top:blanchedalmond;
+}
+
+.output{
+    background:rgba(167, 209, 210) ;
+    border-radius: 12px;
+    border-style:solid;
+    border-color: black;
+    margin-left: 45px;
+    position:absolute;
+    text-align: center;
+     font-family: monospace;
+     font-size: large;
+    height:50px;
+    width: 200px;
+}
+#output1{
+    width: 60px;
+    height: 60px;
+    margin-top:50px;
+    margin-left: 40px;
+    border-radius: 40px;
+    background: linear-gradient(45deg,rgba(247, 178, 38),rgb(120, 99, 57));
+    padding: 10px;
+    font-size: 35px;
+    border-style:solid;
+}
+#output2{
+    width: 60px;
+    height: 60px;
+    margin-top:50px;
+    margin-left: 40px;
+    border-radius: 40px;
+    background: linear-gradient(45deg,rgba(234, 38, 115),rgb(121, 66, 88));
+    padding: 10px;
+    font-size: 35px;
+    border-style:solid;
+}
+#output3{
+    width: 60px;
+    height: 60px;
+    margin-top:50px;
+    margin-left: 40px;
+    border-radius: 40px;
+    background: linear-gradient(45deg,#99D930,#647548);
+    padding: 10px;
+    font-size: 35px;
+    border-style:solid;
+}
+#label{
+    margin-right: 18px;
+}
