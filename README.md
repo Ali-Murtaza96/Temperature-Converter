@@ -3,6 +3,8 @@
 A simple and interactive Temperature Converter built using **HTML**, **CSS**, and **JavaScript**.
 
 Users can enter a temperature, choose its unit using one of the three buttons, and instantly convert it to the other temperature scales. The project also includes an animated thermometer whose mercury level changes according to the entered temperature.
+![Uploading Screenshot 2026-07-25 170338.png…]()
+
 
 ## Features
 
